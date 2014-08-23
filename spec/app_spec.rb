@@ -13,7 +13,7 @@ describe "Application" do
 	describe "/へのアクセス" do
 		before {get "/"}
 
-		it "正常なレスポンスを返す" do
+		it "正常なレスポンスを返すよ！" do
 			expect(last_response).to be_ok
 		end
 
